@@ -24,3 +24,25 @@ body {
   border-radius: 12px;
   padding: 24px 24px 16px 24px;
 }
+
+/* avatar section */
+.avatar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.avatar h3 {
+  color: #38343D;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.avatar span {
+  color: #686071;
+  font-size: 14px;
+}
+
+hr {
+  color: #F4EFFA;
+}
