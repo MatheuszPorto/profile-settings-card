@@ -29,7 +29,7 @@ body {
 .avatar {
   display: flex;
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .avatar h3 {
@@ -44,5 +44,47 @@ body {
 }
 
 hr {
-  color: #F4EFFA;
+  border: 1px solid #F4EFFA;
+  margin: 16px 0;
+}
+
+/* data section */
+label {
+  font-size: 12px;
+  color: #797085;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.default {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.default section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.default div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.default div p {
+  color: #38343D;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+i {
+  font-size: 20px;
+  color: #38343D;
+}
+
+.ph-caret-right {
+  color: #797085;
 }
